@@ -1,0 +1,191 @@
+
+/* #app-css */
+body {
+    background: linear-gradient(rgba(103, 186, 228, 0.667) , #fff) no-repeat;
+    background-size: cover;
+    height: 35rem;
+    /* opacity: 0.2; */
+}
+
+.divOne {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.weather {
+    margin: 1.5rem auto;
+    width: 23rem;
+    height: 26rem;
+    background-color: #fff;
+    border-radius: 8px;
+    /* border: 1px solid rgba(0, 157, 255, 0); */
+    /* display: none; */
+    padding: 1rem;
+}
+
+.eror {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    /* transform: translateY(-10rem); */
+    color: rgba(30,145,208,255);
+}
+
+.sad {
+    width: 14rem;
+    height: 15rem;
+    margin: auto;
+    padding-top: 2rem;
+    transition: all 0.3s;
+}
+
+.sad:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+.divOne input {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 18rem;
+    outline: none;
+    background: none;
+    color: #ffff;
+    font-size: 13px;
+}
+
+.divOne button {
+    padding: 1rem;
+    margin-left: 0.2rem;
+    background: none;
+    border: 1px solid #ffff;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #ffff;
+    transition: all 0.3s;
+}
+
+.searchbtn:hover {
+    transform: scale(1.09);
+    transition: all 0.3s;
+}
+
+.city-name {
+    text-align: center;
+    color: rgba(30,145,208,255);
+    /* font-weight: 600; */
+    font-size: 1.2rem;
+    /* padding-top: 1rem; */
+    margin-bottom: 1rem;
+}
+
+.icon {
+   margin: auto;
+   width: 4rem;
+   height: 4rem;
+
+}
+
+.wind {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+} 
+
+.description {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 1rem; */
+}
+
+.title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin-right: 3rem;
+}
+
+.description2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px; 
+    margin-left: 3rem;
+}
+
+.img {
+    width: 8rem;
+    margin-left: 7rem;
+    transition: all 0.2s;
+}
+
+.img:hover {
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+
+.speed-icon {
+   margin-top: 0.7rem;
+   margin-right: 1.3rem;
+   font-size: 1.2rem;
+   color: gray;
+}
+
+.visibility  {
+ margin-left: 0.7rem;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 14px;
+}
+
+.speed {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.visibility-icon {
+    color: gray;
+    margin-top: 0.7rem;
+   margin-left: 4rem;
+   font-size: 1.2rem;
+}
+
+.condition {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.one {
+  color: gray;
+  font-size: 22px;
+  margin-right: 6.5rem;
+}
+
+.two{
+  color: gray;
+  font-size: 22px;
+  margin-left: 5rem;
+}
+
+.clock {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-align: center;
+    display: none;
+}
+
+.datas {
+    display: flex;
+    justify-content: center;
+}
+
+.dataOne {
+   margin-right: 2rem;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.dataTwo {
+   margin-left: 2rem; 
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
